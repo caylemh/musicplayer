@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleLeft, faAngleRight, faPlay } from '@fortawesome/free-solid-svg-icons';
 
 const Player = () => {
     return(
@@ -9,9 +11,10 @@ const Player = () => {
                 <p>End Time</p>
             </div>
             <div className="play-control">
-
+                <FontAwesomeIcon className="skip-back" size="3x" icon={ faAngleLeft } />
+                <FontAwesomeIcon className="play" size="3x" icon={ faPlay } />
+                <FontAwesomeIcon className="skip-back" size="3x" icon={ faAngleRight } />
             </div>
-            <h1>Player</h1>
         </div>
     );
 }
