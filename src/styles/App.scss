@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 0.5s ease;
 }
 
 h1,
@@ -10,5 +11,17 @@ h3 {
   color: rgb(41, 41, 41);
 }
 
+h3,h4 {
+  font-weight:500;
+  color: rgb(100,100,100);
+}
+
+body {
+  font-family: 'Blinker', sans-serif;
+  //background-image: linear-gradient(45.34deg, #EA52F8 5.66%, #0066FF 94.35%);
+}
+
 @import "./player";
 @import "./song";
+@import "./library";
+@import "./nav";

@@ -61,6 +61,46 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Kinsfolk",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2021/02/7f102bdde417f6ead9a120b2b931449e5c12b4da-1024x1024.jpg",
+      artist: "Aarigod",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=12997",
+      color: ["#52422B", "#A3BF69"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Woodnote",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2021/02/7f102bdde417f6ead9a120b2b931449e5c12b4da-1024x1024.jpg",
+      artist: "Aarigod, imagiro",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=13014",
+      color: ["#52422B", "#A3BF69"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Hereafter",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/11/f78c39b4bb6313ddd0354bef896c591bfb490ff8-1024x1024.jpg",
+      artist: "Makzo",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=11770",
+      color: ["#295A9C", "#FDCB5C"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Seascape",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/11/f78c39b4bb6313ddd0354bef896c591bfb490ff8-1024x1024.jpg",
+      artist: "Makzo",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=11773",
+      color: ["#295A9C", "#FDCB5C"],
+      id: uuidv4(),
+      active: false,
+    },
     //ADD MORE HERE
   ];
 }
