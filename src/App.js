@@ -1,5 +1,5 @@
 import React, {useState, useRef} from 'react';
-import "./styles/app.scss";
+import "./styles/App.scss";
 import Player from "./components/Player";
 import Song from "./components/Song";
 import Library from "./components/Library";
